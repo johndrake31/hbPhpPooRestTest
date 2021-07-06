@@ -31,7 +31,6 @@ class Example extends Model
       'propriete1' => $propriete1,
       'propriete2' => $propriete2
 
-
     ]);
   }
   /**
