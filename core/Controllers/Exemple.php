@@ -91,7 +91,7 @@ class Exemple extends Controller
 
 
 
-        \Rendering::render('exemples/exemple', compact('user', 'unObjetExemple', 'autresDonnees', 'titreDeLaPage'));
+        // \Rendering::render('exemples/exemple', compact('user', 'unObjetExemple', 'autresDonnees', 'titreDeLaPage'));
     }
 
     /**
