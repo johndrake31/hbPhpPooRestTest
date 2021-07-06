@@ -2,7 +2,7 @@
 
 namespace Model;
 
-class Example extends Model
+class Exemple extends Model
 {
 
   protected $table = "examples";
@@ -24,14 +24,14 @@ class Example extends Model
   public function insert(string $proriete1, string $propriete2): void
   {
 
-    $maRequete = $this->pdo->prepare("INSERT INTO exemples (propriete1, propriete2) 
-        VALUES (:propriete1, :propriete2)");
+    // $maRequete = $this->pdo->prepare("INSERT INTO examples (propriete1, propriete2) 
+    //     VALUES (:propriete1, :propriete2)");
 
-    $maRequete->execute([
-      'propriete1' => $propriete1,
-      'propriete2' => $propriete2
+    // $maRequete->execute([
+    //   'propriete1' => $propriete1,
+    //   'propriete2' => $propriete2
 
-    ]);
+    // ]);
   }
   /**
    * 
