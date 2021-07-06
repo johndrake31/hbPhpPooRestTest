@@ -2,10 +2,10 @@
 
 namespace Controllers;
 
-class Exemple extends Controller
+class Example extends Controller
 {
 
-    protected $modelName = \Model\Exemple::class;
+    protected $modelName = \Model\Example::class;
 
 
     /**
@@ -32,7 +32,6 @@ class Exemple extends Controller
         /*  \Rendering::render('exemples/exemple', compact('user','donneesExemple','titreDeLaPage')); */
     }
     public function indexApi()
-
     {
 
 
